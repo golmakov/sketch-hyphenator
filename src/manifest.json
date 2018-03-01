@@ -4,15 +4,21 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Hyphenate text",
+      "identifier": "hyphenate-text",
+      "script": "./hyphenate.js"
+    },
+    {
+      "name": "Remove hyphens",
+      "identifier": "hyphens-remove",
+      "script": "./hyphenate.js"
     }
   ],
   "menu": {
     "title": "sketch-hyphenator",
     "items": [
-      "my-command-identifier"
+      "hyphenate-text",
+      "hyphens-remove"
     ]
   }
 }
