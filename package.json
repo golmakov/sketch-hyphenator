@@ -1,5 +1,7 @@
 {
   "name": "sketch-hyphenator",
+  "description":"Sketch plugin that hyphenates text",
+  "author": "Aleksander Golmakov",
   "version": "0.1.0",
   "engines": {
     "sketch": ">=3.0"
