@@ -20,5 +20,10 @@
   },
   "devDependencies": {
     "@skpm/builder": "^0.4.0"
+  },
+  "dependencies": {
+    "hyphenation.en-us": "^0.2.1",
+    "hyphenation.ru": "^0.2.1",
+    "hypher": "^0.2.5"
   }
 }

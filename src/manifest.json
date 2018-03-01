@@ -2,20 +2,23 @@
   "compatibleVersion": 3,
   "bundleVersion": 1,
   "icon": "icon.png",
+  "identifier": "com.golmakov.sketch-hyphenator",
   "commands": [
     {
-      "name": "Hyphenate text",
+      "name": "Hyphenate Text",
       "identifier": "hyphenate-text",
+      "handler": "addHyphens",
       "script": "./hyphenate.js"
     },
     {
-      "name": "Remove hyphens",
+      "name": "Remove Hyphens",
       "identifier": "hyphens-remove",
+      "handler": "removeHyphens",
       "script": "./hyphenate.js"
     }
   ],
   "menu": {
-    "title": "sketch-hyphenator",
+    "title": "Hyphenator",
     "items": [
       "hyphenate-text",
       "hyphens-remove"
