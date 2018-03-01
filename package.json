@@ -7,7 +7,7 @@
   "skpm": {
     "name": "sketch-hyphenator",
     "manifest": "src/manifest.json",
-    "main": "plugin.sketchplugin",
+    "main": "sketch-hyphenator.sketchplugin",
     "assets": [
       "assets/**/*"
     ]
