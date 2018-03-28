@@ -1,0 +1,31 @@
+{
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "icon": "icon.png",
+  "identifier": "com.golmakov.sketch-hyphenator",
+  "commands": [
+    {
+      "name": "Hyphenate Text",
+      "identifier": "hyphenate-text",
+      "handler": "addHyphens",
+      "script": "hyphenate.js"
+    },
+    {
+      "name": "Remove Hyphens",
+      "identifier": "hyphens-remove",
+      "handler": "removeHyphens",
+      "script": "hyphenate.js"
+    }
+  ],
+  "menu": {
+    "title": "Hyphenator",
+    "items": [
+      "hyphenate-text",
+      "hyphens-remove"
+    ]
+  },
+  "version": "0.1.0",
+  "name": "sketch-hyphenator",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml"
+}

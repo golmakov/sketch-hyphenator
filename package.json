@@ -1,8 +1,14 @@
 {
   "name": "sketch-hyphenator",
   "description":"Sketch plugin that hyphenates text",
+  "homepage": "https://github.com/golmakov/sketch-hyphenator",
   "author": "Aleksander Golmakov",
   "version": "0.1.0",
+  "identifier": "com.golmakov.sketch-hyphenator",
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/golmakov/sketch-hyphenator.git"
+  },
   "engines": {
     "sketch": ">=3.0"
   },

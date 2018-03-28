@@ -1,6 +1,5 @@
 # build artifacts
 plugin.sketchplugin
-sketch-hyphenator.sketchplugin
 
 # npm
 node_modules
