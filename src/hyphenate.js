@@ -1,5 +1,6 @@
 import hypher from 'hypher';
 import ru from 'hyphenation.ru';
+import en from 'hyphenation.en-us'
 
 export function* getTextLayers(context) {
     var doc = context.document;
@@ -19,11 +20,12 @@ export function* getTextLayers(context) {
 };
 
 export function addHyphens(context) {
-    h = new hypher(ru);
+    hr = new hypher(ru);
+    he = new hypher(en);
 
     for (let layer of getTextLayers(context)) {
         var text = layer.stringValue();
-        text = h.hyphenateText(text);
+        text = he.hyphenateText(hr.hyphenateText(text));
         layer.setStringValue(text);
     };
 };

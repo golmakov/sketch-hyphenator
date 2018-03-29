@@ -24,8 +24,11 @@
       "hyphens-remove"
     ]
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "Sketch plugin that hyphenates text",
+  "homepage": "https://github.com/golmakov/sketch-hyphenator",
   "name": "sketch-hyphenator",
   "disableCocoaScriptPreprocessor": true,
-  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml"
+  "appcast": "https://raw.githubusercontent.com/golmakov/sketch-hyphenator/master/.appcast.xml",
+  "author": "Aleksander Golmakov"
 }

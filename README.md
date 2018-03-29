@@ -1,6 +1,6 @@
 # Sketch hyphenation plugin
 
-A plugin for Bohemiancoding Sketch for addind / removing hyphenation to a selected text layers.
+A plugin for Bohemiancoding Sketch for addind / removing hyphenation to a selected text layers. Currently plugin support only Russian and English texts.
 
 It uses [Hypher](https://github.com/bramstein/hypher) js hyphenation engine.
 
