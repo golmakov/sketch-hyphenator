@@ -1,5 +1,6 @@
 {
-  "name": "Sketch Hyphenator",
+  "name": "sketch-hyphenator",
+  "title": "Sketch Hyphenator",
   "description": "Sketch plugin that hyphenates text",
   "homepage": "https://github.com/golmakov/sketch-hyphenator",
   "author": "Aleksander Golmakov",
@@ -17,7 +18,7 @@
     "manifest": "src/manifest.json",
     "main": "sketch-hyphenator.sketchplugin",
     "assets": [
-      "assets/**/*"
+      "assets/**/*.png"
     ]
   },
   "scripts": {

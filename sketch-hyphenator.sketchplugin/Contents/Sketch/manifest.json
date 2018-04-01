@@ -7,12 +7,14 @@
     {
       "name": "Hyphenate Text",
       "identifier": "hyphenate-text",
+      "icon": "hyphenate.png",
       "handler": "addHyphens",
       "script": "hyphenate.js"
     },
     {
       "name": "Remove Hyphens",
       "identifier": "hyphens-remove",
+      "icon": "removeHyphens.png",
       "handler": "removeHyphens",
       "script": "hyphenate.js"
     }
