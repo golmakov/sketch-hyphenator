@@ -4,6 +4,13 @@ A plugin for Bohemiancoding Sketch for addind / removing hyphenation to a select
 
 It uses [Hypher](https://github.com/bramstein/hypher) js hyphenation engine.
 
+## Install instructions
+
+[Download the ZIP file](https://github.com/golmakov/sketch-hyphenator/releases/download/v0.1.2/sketch-hyphenator.sketchplugin.zip) and extract contents, then double-click on the `sketch-hyphenator.sketchplugin` file.
+
+Or if you using [Runner](http://sketchrunner.com), just go to the `install` command and search for `Sketch hyphenator`
+
+
 ## Building from source
 
 ```bash
