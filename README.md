@@ -2,11 +2,11 @@
 
 # Sketch hyphenation plugin
 
-A plugin for Bohemiancoding Sketch for addind / removing hyphenation to a selected text layers. Currently plugin support only Russian and English texts.
+Sketch plugin for addind / removing hyphenation in selected text layers. Currently plugin supports only Russian and English texts.
 
 ![Screencast](/assets/hyphenator-sample.gif)
 
-It uses [Hypher](https://github.com/bramstein/hypher) js hyphenation engine.
+It uses [Hypher](https://github.com/bramstein/hypher) javascript hyphenation engine.
 
 ## Install instructions
 
@@ -29,4 +29,26 @@ skpm log -f
 
 # Always reload scripts before running
 defaults write ~/Library/Preferences/com.bohemiancoding.sketch3.plist AlwaysReloadScript -bool YES
+```
+
+If you need to hyphenate texts in languages other than Russian and English you can find additional language patterns in the [patterns repository](https://github.com/bramstein/hyphenation-patterns).
+
+Include language patterns you need as a dependencies in the `package.json`, spanish for example:
+```JSON
+"dependencies": {
+    "hyphenation.es": "^0.2.1",
+    ...
+}
+```
+
+Edit the `src\hyphenate.js` file and add new language patterns:
+```JavaScript
+...
+import es from 'hyphenation.es';// Import spanish hyphenation patterns
+
+var engines = new Array();
+engines.push(new hypher(ru));
+engines.push(new hypher(en));
+engines.push(new hypher(es)); // Use spanish patterns as hyphenation engine
+...
 ```
