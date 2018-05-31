@@ -13,6 +13,8 @@ It uses [Hypher](https://github.com/bramstein/hypher) javascript hyphenation eng
 
 [Download the ZIP file](https://github.com/golmakov/sketch-hyphenator/releases/download/v0.1.2/sketch-hyphenator.sketchplugin.zip) and extract contents, then double-click on the `sketch-hyphenator.sketchplugin` file.
 
+![Runner](/assets/hyphenator-install.gif)
+
 Or if you using [Runner](http://sketchrunner.com), just go to the `install` tab and search for `Sketch hyphenator`
 
 
@@ -28,7 +30,7 @@ Include language patterns you need as a dependencies in the `package.json` file,
 }
 ```
 
-Edit the `src\hyphenate.js` file and add new language patterns:
+Edit the `src/hyphenate.js` file and add new language patterns:
 ```JavaScript
 ...
 import es from 'hyphenation.es';// Import spanish hyphenation patterns
